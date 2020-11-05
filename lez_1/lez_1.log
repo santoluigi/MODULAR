@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.25)  5 NOV 2020 10:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.25)  5 NOV 2020 11:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -327,6 +327,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+./lez_1.tex:21: Undefined control sequence.
+<recently read> \fcafamily 
+                           
+l.21 ...rge{\textbf{\fcafamily{Gabriele Petrillo}}
+                                                  }}\\\end{minipage}
+? 
+
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
@@ -337,6 +344,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 21.
+./lez_1.tex:26: Undefined control sequence.
+<recently read> \fcafamily 
+                           
+l.26 {\huge{\textbf{\fcafamily{Fondamenti di Max}}
+                                                  }} \\
+? 
 Runaway argument?
 {
 ./lez_1.tex:36: Paragraph ended before \text@command was complete.
@@ -351,61 +364,71 @@ l.36
 l.36 
      
 ? 
-./lez_1.tex:49: Undefined control sequence.
+./lez_1.tex:50: Undefined control sequence.
 <recently read> \fcafamily 
                            
-l.49 \textbf{\fcafamily{01 Patchcords}}
+l.50 \textbf{\fcafamily{01 Patchcords}}
                                        \\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
 <images/01patchcords.png, id=1, 653.44125pt x 306.14375pt>
 File: images/01patchcords.png Graphic file (type png)
 <use images/01patchcords.png>
-Package pdftex.def Info: images/01patchcords.png  used on input line 55.
+Package pdftex.def Info: images/01patchcords.png  used on input line 56.
 (pdftex.def)             Requested size: 196.03387pt x 91.84383pt.
-./lez_1.tex:60: Undefined control sequence.
+./lez_1.tex:61: Undefined control sequence.
 <recently read> \fcafamily 
                            
-l.60 \textbf{\fcafamily{02 Introduzione a Max}}
+l.61 \textbf{\fcafamily{02 Introduzione a Max}}
                                                \\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--66
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
 
  []
 
 <images/02_bang.png, id=3, 418.56375pt x 376.40625pt>
 File: images/02_bang.png Graphic file (type png)
 <use images/02_bang.png>
-Package pdftex.def Info: images/02_bang.png  used on input line 68.
+Package pdftex.def Info: images/02_bang.png  used on input line 69.
 (pdftex.def)             Requested size: 125.57008pt x 112.92273pt.
-./lez_1.tex:73: Undefined control sequence.
+./lez_1.tex:74: Undefined control sequence.
 <recently read> \fcafamily 
                            
-l.73 \textbf{\fcafamily{03 Number Box}}
+l.74 \textbf{\fcafamily{03 Number Box}}
                                        \\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 79.
+./lez_1.tex:79: Undefined control sequence.
+\f@nch@orh ->\fcafamily 
+                        {Lezione 1 "\textit {\fcafamily {Fondamenti di Max}}...
+l.79 
+     
+? 
+./lez_1.tex:79: Undefined control sequence.
+<recently read> \fcafamily 
+                           
+l.79 
+     
+? 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 13.59999pt.
@@ -415,88 +438,111 @@ This may cause the page layout to be inconsistent, however.
 [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/01patchcords.png> <./images/02_bang.png>]
-<images/03_number.png, id=19, 376.40625pt x 370.38374pt>
+<images/03_number.png, id=17, 376.40625pt x 370.38374pt>
 File: images/03_number.png Graphic file (type png)
 <use images/03_number.png>
-Package pdftex.def Info: images/03_number.png  used on input line 80.
+Package pdftex.def Info: images/03_number.png  used on input line 81.
 (pdftex.def)             Requested size: 112.92273pt x 111.11597pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-<images/04_toggle e metro.png, id=20, 523.9575pt x 145.54375pt>
+<images/04_toggle e metro.png, id=18, 523.9575pt x 145.54375pt>
 File: images/04_toggle e metro.png Graphic file (type png)
 <use images/04_toggle e metro.png>
-Package pdftex.def Info: images/04_toggle e metro.png  used on input line 91.
+Package pdftex.def Info: images/04_toggle e metro.png  used on input line 92.
 (pdftex.def)             Requested size: 157.18846pt x 43.66345pt.
-./lez_1.tex:96: Undefined control sequence.
+./lez_1.tex:97: Undefined control sequence.
 <recently read> \fcafamily 
                            
-l.96 ...fcafamily{05 Ordine degli eventi e debug}}
+l.97 ...fcafamily{05 Ordine degli eventi e debug}}
                                                   \\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-<images/05_debug.png, id=21, 560.0925pt x 350.30875pt>
+<images/05_debug.png, id=19, 560.0925pt x 350.30875pt>
 File: images/05_debug.png Graphic file (type png)
 <use images/05_debug.png>
-Package pdftex.def Info: images/05_debug.png  used on input line 103.
+Package pdftex.def Info: images/05_debug.png  used on input line 104.
 (pdftex.def)             Requested size: 168.02904pt x 105.09343pt.
-./lez_1.tex:108: Undefined control sequence.
+./lez_1.tex:109: Undefined control sequence.
 <recently read> \fcafamily 
                            
-l.108 \textbf{\fcafamily{06 Liste}}
+l.109 \textbf{\fcafamily{06 Liste}}
                                    \\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-<images/06_liste.png, id=22, 657.45625pt x 420.57124pt>
+<images/06_liste.png, id=20, 657.45625pt x 420.57124pt>
 File: images/06_liste.png Graphic file (type png)
 <use images/06_liste.png>
-Package pdftex.def Info: images/06_liste.png  used on input line 115.
+Package pdftex.def Info: images/06_liste.png  used on input line 116.
 (pdftex.def)             Requested size: 197.23839pt x 126.17235pt.
+./lez_1.tex:118: Undefined control sequence.
+\f@nch@orh ->\fcafamily 
+                        {Lezione 1 "\textit {\fcafamily {Fondamenti di Max}}...
+l.118 {\scriptsize \emph{fig.6 }
+                                }
+? 
+./lez_1.tex:118: Undefined control sequence.
+<recently read> \fcafamily 
+                           
+l.118 {\scriptsize \emph{fig.6 }
+                                }
+? 
 [2 <./images/03_number.png> <./images/04_toggle e metro.png> <./images/05_debug
 .png>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 122.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 123.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
+./lez_1.tex:125: Undefined control sequence.
+\f@nch@orh ->\fcafamily 
+                        {Lezione 1 "\textit {\fcafamily {Fondamenti di Max}}...
+l.125 \end{multicols*}
+                      
+? 
+./lez_1.tex:125: Undefined control sequence.
+<recently read> \fcafamily 
+                           
+l.125 \end{multicols*}
+                      
+? 
 [3 <./images/06_liste.png>] (./lez_1.aux) ) 
 Here is how much of TeX's memory you used:
- 3943 strings out of 480608
- 62101 string characters out of 5903630
- 332519 words of memory out of 5000000
- 19789 multiletter control sequences out of 15000+600000
- 541641 words of font info for 54 fonts, out of 8000000 for 9000
+ 3936 strings out of 480608
+ 61997 string characters out of 5903630
+ 332522 words of memory out of 5000000
+ 19784 multiletter control sequences out of 15000+600000
+ 540392 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,45p,791b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,45p,791b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/font
-s/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2020/texmf-dist/font
-s/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2020/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
 ype1/public/cm-super/sfrm1095.pfb>
-Output written on lez_1.pdf (3 pages, 827492 bytes).
+Output written on lez_1.pdf (3 pages, 850928 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
