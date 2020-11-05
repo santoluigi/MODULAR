@@ -46,7 +46,7 @@ Questa prima lezione è dedicata allo studio dei fondamentali della programmazio
 \begin{multicols*}{2}
 \parskip=0pt
 
-\textbf{\textsf {01 Patchcords}}\\
+\textbf{\fcafamily{01 Patchcords}}\\
 
 \noindent Max è un linguaggio di programmazione basato sul collegamento di oggetti grafici tramite cavi chiamati \textit {patch chords}. Gli \textit{object box} sono piccoli programmi che eseguono delle azioni di calcolo, tuttavia in Max sono presenti altre due tipologie di scatole chiamate \textit{message box} e \textit{comment box}: i primi sono messaggi alphanumerici che possono essere inviati o ricevuti da un object box, i secondi sono commenti che possiamo scrivere all’interno della patch.
 A seconda del tipo di dati che gli object box spediscono i cavi di collegamento saranno di colore diverso: \textbf{grigi} dati numerici o stringhe, \textbf{gialli} per flussi di dati audio e \textbf{verdi} per il video.\\
@@ -57,7 +57,7 @@ A seconda del tipo di dati che gli object box spediscono i cavi di collegamento 
 {\scriptsize \emph{fig.1 }}
 \end{center}
 
-\textbf{\textsf {02 Introduzione a Max}}\\
+\textbf{\fcafamily{02 Introduzione a Max}}\\
 
 \noindent Il \textbf{bang} è un messaggio che ha il compito di dire agli oggetti di fare quello che devono fare, quindi inviare dei messaggi dai loro outlet. Può essere collegato a più oggetti o messaggi per ottenere un output multiplo.
 L’oggetto \textbf{print} serve a visualizzare l’output di un messaggio o di un oggetto nella console di max, può essere chiamato con un nome specifico, ed ha una funzione di controllo.
@@ -70,7 +70,7 @@ Gli oggetti \textbf{bangbang} e \textbf{trigger} servono ad indirizzare più mes
 {\scriptsize \emph{fig.2 }}
 \end{center}
 
-\textbf{\textsf {03 Number Box}}\\
+\textbf{\fcafamily{03 Number Box}}\\
 
 \noindent Il \textbf{number box} è un oggetto che invia dei messaggi contenenti dei numeri. Esistono due tipi di Number box: \textbf{float} (numeri con la virgola) \textbf{int} (numeri interi). I numeri possono essere controllati tramite scroll, qualsiasi oggetto grafico come dial o fader, o scrivendoci dentro il numero. Ogni volta che cambiamo inseriamo un numero l’oggetto provoca un output del numero, tuttavia se vogliamo solo caricare il numero senza provocare nessun output bisogna inviare un messaggio con in numero preceduto dalla keyword \textit{set}.
 Se colleghiamo un Number box ad un messaggio, possiamo avere un messaggio con un numero variabile inserendo nel messaggio la keyword “\$1”, per i numeri interi o “\$1.” per i numeri con la virgola.
@@ -93,7 +93,7 @@ L’oggetto \textbf{metro} è un oggetto molto utile in max ed è utilizzato per
 {\scriptsize \emph{fig.4 }}
 \end{center}
 
-\textbf{\textsf {05 Ordine degli eventi e debug}}\\
+\textbf{\fcafamily{05 Ordine degli eventi e debug}}\\
 
 \noindent Anche se può sembrare che max faccia più cose contemporaneamente, tutti i calcoli vengono fatti uno alla volta e in un certo ordine. È molto importante mettere gli oggetti nel giusto posto nella patch per far capire a max in che ordine fare i calcoli.
 L’ordine di precedenza di max è destra - sinistra, basso - alto. Se ci sono dubbi è possibile verificare l’ordine dei messaggi con la funzione debug (nel menù in alto) applicando i watchpoint sui cavi. (per fare questo dobbiamo andare nel menù debug ed abilitare il debug, poi selezionare un cavo ed inserire il watchpoint desiderato)
@@ -105,7 +105,7 @@ Per ovviare al problema grafico del posizionamento degli oggetti possiamo usare 
 {\scriptsize \emph{fig.5 }}
 \end{center}
 
-\textbf{\textsf {05 Liste}}\\
+\textbf{\fcafamily{06 Liste}}\\
 
 \noindent Per lista si intende un messaggio contenente una serie di dati alphanumerici. Le liste sono utili per inviare variabili con Keyword agli oggetti o far camminare più informazioni contemporaneamente per poi essere divise.
 Gli oggetti che ci permettono di creare o spacchettare liste sono “pack” “pak” e “unpack”. I primi due servono a creare liste, come argomento vanno inseriti i tipi di dato che devono ricevere dagli inlet rispettivi, la differenza tra i due oggetti è che il primo ha solo il primo inlet caldo, mentre il secondo gli ha tutti. L’oggetto “unpack” serve a spacchettare una lista in più messaggi singoli e come argomento richiede i tipi di messaggi che deve spacchettare dall’outlet rispettivo.
